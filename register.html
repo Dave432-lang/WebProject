@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register - Pentech Innovators Summit2025</title>
+  <link rel="stylesheet" href="register.css" />
+  <link rel="stylesheet" href="footer.css" />
+
+</head>
+<body>
+  <header class="header">
+    <h1>Register for <span>Pentech Innovators Summit 2025</span></h1>
+    <div class="line"></div>
+    <p>Secure your spot at Ghana's premier technology and innovation summit</p>
+  </header>
+  
+    <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-circle">PIS</div>
+        <div class="logo-text">
+          <h2>Pentech Innovators Summit</h2>
+          <p>2025</p>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="speakers.html">Speakers</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="gallery.html" class="active" >Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="register.html" class="btn-register">Register Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <form id="registerForm" class="form-card">
+        <h2 class="form-title">Registration Form</h2>
+
+        
+        <label for="fullName">Full Name </label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required />
+
+        
+        <label for="email">Email Address </label>
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+
+        <label for="institution">Institution / Organization </label>
+        <input type="text" id="institution" name="institution" placeholder="Your university or company" required />
+
+        <label for="interestArea">Area of Interest </label>
+        <select id="interestArea" name="interestArea" required>
+          <option value="">Select your area of interest</option>
+          <option value="ai">Artificial Intelligence & Machine Learning</option>
+          <option value="blockchain">Blockchain & Cryptocurrency</option>
+          <option value="cybersecurity">Cybersecurity</option>
+          <option value="cloud">Cloud Computing & DevOps</option>
+          <option value="data">Data Science & Analytics</option>
+          <option value="mobile">Mobile App Development</option>
+          <option value="iot">Internet of Things (IoT)</option>
+          <option value="design">UX/UI Design</option>
+          <option value="entrepreneurship">Tech Entrepreneurship</option>
+          <option value="other">Other</option>
+        </select>
+
+       
+        <label>Attendance Type </label>
+        <div class="radio-group">
+          <label><input type="radio" name="attendanceType" value="both" required /> Both Days (March 15–16, 2025)</label>
+          <label><input type="radio" name="attendanceType" value="day1" /> Day 1 Only (March 15, 2025)</label>
+          <label><input type="radio" name="attendanceType" value="day2" /> Day 2 Only (March 16, 2025)</label>
+        </div>
+
+        
+        <label for="comments">Additional Comments (Optional)</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Any questions or special requirements?"></textarea>
+
+        <button type="submit" id="submitBtn">Complete Registration</button>
+        <p class="note"> Required fields. Registration is free for all attendees.</p>
+      </form>
+    </section>
+
+    <section id="successMessage" class="success hidden">
+      <div class="success-card">
+        <div class="icon">✅</div>
+        <h2>You're Registered!</h2>
+        <p>Thank you for registering for Tech Connect 2025. A confirmation email has been sent to you.</p>
+        <ul>
+          <li>✓ Check your email for your event pass</li>
+          <li>✓ Review the event schedule and plan your sessions</li>
+          <li>✓ Join our WhatsApp group for updates</li>
+          <li>✓ Mark your calendar: March 15–16, 2025</li>
+        </ul>
+        <div class="buttons">
+          <button onclick="location.href='schedule.html'">View Schedule</button>
+          <button class="outline" onclick="location.href='index.html'">Back to Home</button>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="benefits">
+      <h3>Registration Benefits</h3>
+      <ul>
+        <li>✓ Access to all keynote sessions</li>
+        <li>✓ Participation in workshops</li>
+        <li>✓ Networking opportunities</li>
+        <li>✓ Certificate of attendance</li>
+        <li>✓ Event materials and swag</li>
+        <li>✓ Lunch and refreshments</li>
+      </ul>
+    </section>
+  </main>
+
+  <div id="footer-section">
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      
+      <div class="footer-col">
+        <h3 class="footer-title">Tech Connect 2025</h3>
+        <p class="footer-text">
+          Join us at Pentecost University for the premier technology and innovation summit.
+        </p>
+        <div class="footer-socials">
+          <a href="#" title="Facebook"><img src="icons/facebook.svg" alt="Facebook" /></a>
+          <a href="#" title="Twitter"><img src="icons/twitter.svg" alt="Twitter" /></a>
+          <a href="#" title="Instagram"><img src="icons/instagram.svg" alt="Instagram" /></a>
+          <a href="#" title="LinkedIn"><img src="icons/linkedin.svg" alt="LinkedIn" /></a>
+        </div>
+      </div>
+
+     
+      <div class="footer-col">
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Event</a></li>
+          <li><a href="speakers.html">Speakers</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+
+     
+      <div class="footer-col">
+        <h3 class="footer-title">Contact Us</h3>
+        <ul class="footer-contact">
+          <li><span>📍</span> Pentecost University, Sowutuom, Accra</li>
+          <li><span>📞</span>+233 540741915</li>
+          <li><span>✉️</span> dagbanjadavid22@gmail.com</li>
+        </ul>
+      </div>
+
+     
+      <div class="footer-col">
+        <h3 class="footer-title">Event Info</h3>
+        <ul class="footer-info">
+          <li><strong>Date:</strong> March 15–16, 2025</li>
+          <li><strong>Time:</strong> 9:00 AM – 5:00 PM</li>
+          <li><strong>Venue:</strong> Pentech Hub</li>
+          <li><strong>Organizer:</strong> Pentecost University</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Tech Connect. All rights reserved. | Powered by Pentech Hub</p>
+    </div>
+  </div>
+</footer>
+</div>
+  <script src="register.js"></script>
+</body>
+</html>
